@@ -1,0 +1,137 @@
+/* ------------------- to do lis main container------------------------------------------ */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: auto;
+  background-color: rgb(154, 218, 170);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+}
+
+.mainContainer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 98%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  list-style: none;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  margin-top: 0.3rem;
+  color: rgb(207, 195, 195);
+}
+
+.mainContainer ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 98%;
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  background-color: rgb(68, 6, 6);
+  margin-bottom: 0.3rem;
+}
+
+.mainContainer li p {
+  width: 95%;
+  height: 3rem;
+}
+
+.mainContainer li i {
+  width: 10%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.mainContainer button {
+  width: 96%;
+  border: none;
+  background-color: rgb(92, 25, 25);
+  height: 4rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.mainContainer .mainList .newList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 98%;
+  font-size: 1.3rem;
+  padding-top: 0.2rem;
+  background-color: rgb(68, 6, 6);
+  height: 4rem;
+  outline: none;
+  border: none;
+  color: whitesmoke;
+  padding-left: 0.3rem;
+}
+
+.mainContainer .mainList .newList input {
+  width: 100%;
+  height: 3rem;
+  background-color: transparent;
+  border: none;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mainContainer .mainList span {
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-style: normal;
+}
+
+/* ---------------------------------- to dolist container---------------------------- */
+.mainContainer .taskList {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  width: 99%;
+  background-color: rgb(154, 218, 170);
+  margin-left: 0.2rem;
+  margin-right: 0.5rem;
+  overflow-y: auto;
+}
+
+.taskList .deletelist .deleteli {
+  width: 98%;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background-color: rgb(68, 6, 6);
+  margin-bottom: 0.1rem;
+}
+
+.taskList .deletelist .deleteli span {
+  display: block;
+  width: 95%;
+  height: 4rem;
+  padding: 0.6rem;
+  font-size: 1.5rem;
+}
+
+.taskList .deletelist .deleteli .chkbox {
+  width: 1.3rem;
+  height: 1.3rem;
+}
