@@ -1,6 +1,6 @@
 const toDoListDisplay = () => {
   const deleteList = document.querySelector('.deletelist');
-   // array of objects
+  // array of objects
 
   const toDoLists = [
     {
