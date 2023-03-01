@@ -1,41 +1,36 @@
 const toDoListDisplay = () => {
-// reference the div element delelist from markup
   const deleteList = document.querySelector('.deletelist');
-  // const newTask = document.createElement('li');
-  // newTask.classList.add('deleteli');
-  // deleteList.appendChild(newTask);
-
   // array of objects
 
   const toDoLists = [
     {
       description: 'Wake up ',
       completed: false,
-      id: 0,
+      index: 0,
     },
 
     {
       description: 'Have Brush ',
       completed: false,
-      id: 1,
+      index: 1,
     },
 
     {
       description: 'Take Breakfast ',
       completed: false,
-      id: 2,
+      index: 2,
     },
 
     {
       description: 'Dress up Wel ',
       completed: false,
-      id: 3,
+      index: 3,
     },
 
     {
       description: 'Start Coding',
       completed: false,
-      id: 4,
+      index: 4,
     },
   ];
   const brkEle = document.createElement('br');

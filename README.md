@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Awesome Book <a name="about-project"></a>
+# 📖 To Do List <a name="about-project"></a>
 
-> **My Awesome Book** is a website that allows a user to add their favourite book and display them in a table. It also allows user to remove the desired book.
+> **To Do List** is a website that allows a user to add their To do list and display them in a cloumn. It also allows user to remove the desired to do.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,7 +45,7 @@
 <details>
   <summary>CSS</summary>
   <ul>
-    <li><a href="https://html.com/css/#What_is_CSS">index.css</a></li>
+    <li><a href="https://html.com/css/#What_is_CSS">style.css</a></li>
   </ul>
 </details>
 
@@ -70,7 +70,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> - [Live Demo Link](https://codewithhyder.github.io/awesomebook-module1/)
+> - [Live Demo Link](https://codewithhyder.github.io/to-do-list/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +90,7 @@
 
 > Clone this repository to your desired folder:<br>
 > - <code>cd your-folder</code><br>
-> - <code>git clone https://github.com/codeWithHyder/awesomebook-module1</code>
+> - <code>git clone https://github.com/codeWithHyder/to-do-list</code>
 
 ### Install
 
@@ -126,7 +126,7 @@
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Build a history page to display all added books.
+> Build  CRUD operations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +135,7 @@
 ## 🤝 Contributing <a name="contributing"></a>
 
 > Contributions, issues, and feature requests are welcome! <br>
-> Feel free to check the [issues page](https://github.com/codeWithHyder/awesomebook-module1/issues).
+> Feel free to check the [issues page](https://github.com/codeWithHyder/to-do-list/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
