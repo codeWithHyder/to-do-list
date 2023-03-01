@@ -5,7 +5,5 @@ addNewList();
 addToArray();
 displayTasks();
 removeTask(); */
-
 import toDoListDisplay from './basicstr.js';
-
 toDoListDisplay();
